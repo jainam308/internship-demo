@@ -1,0 +1,160 @@
+#top_nav{
+    background-color: #151413 !important;
+padding: 0 8%;
+}
+.navbar-dark .navbar-nav .nav-link {
+    color: rgb(255 255 255);
+    font-size: 20px;
+    padding-left: 25px;
+}
+#searchbox{
+    color: black;
+    border: 0px;
+    border-radius: 0;
+    position: relative;
+    left: 150px;
+    width: 250px;
+    }
+    #searchbtn{
+        position: relative;
+        z-index: 99;
+        background-color: black ;
+        color: white;
+        border: 0;
+        border-radius: 0;
+        left: 111px;
+    }
+
+    @media only screen and (max-width: 768px){
+        #searchform{
+            margin-bottom: 30px;
+            margin-top: 20px;
+            position: relative;
+            left: -20px;
+        }
+    }
+    @media only screen and (max-width: 500px){
+#top_nav{
+    padding: 0;   
+}
+    }
+     /* banner */
+     #banner{
+        background-color: black;
+        color: white;
+        padding-bottom: 20px;
+     }
+     .btn {
+        display: inline-block;
+        font-weight: 400;
+        line-height: 1.5;
+        color: white;
+        text-align: center;
+        text-decoration: none;
+        vertical-align: middle;
+        cursor: pointer;
+        -webkit-user-select: none;
+        -moz-user-select: none;
+        user-select: none;
+        background-color: transparent;
+        border: 1px solid;
+        padding: .375rem .75rem;
+        font-size: 1rem;
+        border-radius: .25rem;
+        transition: color .15s ease-in-out,background-color .15s ease-in-out,border-color .15s ease-in-out,box-shadow .15s ease-in-out;
+    }
+
+    #bannertext h1{
+        color: white;
+        font-size: 70px;
+        margin-top: 100px;
+    }
+#bannertext p{
+    color: white;
+    font-size: 20px;
+    margin-top: 30px;
+    margin-bottom: 20px ;
+}
+#banner-btn-1{
+    background-color: #00bec9;
+    border: 2px solid #00bec9;
+color: white
+}
+#banner-btn-2{
+    color: white;
+    border: 2px solid white;
+    margin-left: 15px;
+}
+@media only screen and (max-width: 1300px){
+    #bannertext h1{
+         font-size: 50px;
+        }
+        #banner{
+            padding-bottom: 70px;
+        }
+    }
+    @media only screen and (max-width: 900px){
+        #bannertext h1{
+            font-size: 40px;
+           }
+           #bannerimg img{
+            padding-top: 70px;
+           }
+    }
+/* service */
+#service-text{
+    padding-top: 10%;
+    padding-bottom: 5%;
+}
+#service-btn{
+    color: white;
+    background-color:#00bec9 ;
+    border: 2px solid #00bec9;
+}
+#service-img{
+    padding: 5%;
+    }
+    
+    @media only screen and (max-width: 768px) {
+        #service-img{
+            padding-top: 10%;
+            }
+    }
+    /* counter section */
+    #counter-section{
+        background-image: url("../image/black.jpg");
+        padding-top: 50px;
+        padding-bottom: 70px;
+        background-position:center;
+        background-size: cover;
+    }
+    #counter-icon{
+        font-size: 70px;
+    }
+    @media only screen and (max-width: 500px) {
+        #counter-icon{
+            font-size: 70px;
+        }
+    }
+    /* blog */
+    #blog{
+        padding-bottom: 70px; 
+        padding-top: 70px;
+    }
+    #blog-title{
+        font-size: 50px;
+        font-weight: bolder;
+    }
+    #blog-p{
+        font-size: 20px;
+        margin-bottom: 70px;
+    }
+.article-detail{
+    padding: 15px;
+    border: 1px solid rgb(185,185,185);
+    border-top: 0;
+
+}
+.article-date,.article-link{
+    color: #00bec9;
+}
